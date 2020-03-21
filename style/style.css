@@ -1,0 +1,104 @@
+/* 
+.container {
+border: solid;
+width:100%;
+}
+*/
+
+*{
+    font-family: Arial, Tahoma, sans-serif;
+    /* box-sizing: border-box; */
+}
+
+body{
+    margin:0px;
+    overflow-x: hidden; /* Hide scrollbars */
+}
+
+.need-padding {
+    padding: 5pt;
+}
+
+nav a{
+    border: 0px solid;
+    display: block;
+    font-size: 1.8em;
+    text-align: center;
+    background:rgb(91, 110, 192);
+    color:white;
+}
+nav ul{
+    border:1px solid;
+    padding:0px;
+    display: table;
+    width:100%;
+}
+nav li{
+    display: table-cell;
+}
+ul{
+list-style-type: none;
+}
+h1,h2{
+    color:rgb(59, 42, 70);
+}
+/* a:link{color: rgb(134, 190, 50);}
+a:visited{color: rgb(7, 151, 7);}
+a:hover{color:rgb(206, 206, 22);}
+a:active{color: black;} */
+a{text-decoration: none;}
+
+
+.cols a {color: white;}
+
+.cols {
+    margin:0;
+    background-color: rgb(125, 134, 125);
+}
+.col h2 {
+    color: white;
+    text-align: center;
+}
+.col{
+    /* border: solid; */
+    display:inline-block;
+}
+
+/*Выпадающий список*/
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+.dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+li a:hover, .dropdown:hover{
+    background-color: lightblue;
+  }
+
+/*Следующее правило плохое: окрашивает фон в белый цвет:
+li.dropdown {
+    display: inline-block;
+  }
+*/
+.dropdown-content a {
+    color: white;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+.dropdown-content a:hover {color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+  }
