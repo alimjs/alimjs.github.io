@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+ <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="css/style.css">
+        <!-- viewport=/> -->
+        <title>Каталог BIG</title>
+ </head>
+    <body>
+     <!-- <div class="container"> -->
+        <header>
+            <a href="index.html"><img src="img/logo-2/logo.png" width="100" alt="Логотип"></a>
+            <nav>
+            <ul>
+                <li class="dropdown">
+                    <a href="catalog.html">Каталог</a>
+                    <div class="dropdown-content">
+                        <a href="catalog.html" class="dropbtn">Квартиры и комнаты</a>
+                        <a href="catalog.html">Новостройки</a>
+                    </div>
+                    <!-- Не забыть про li-->
+                    </li>
+                <li><a href="about.html">О компании</a>
+                <li><a href="service.html">Услуги</a>
+                <li><a href="contacts.html">Контакты</a>
+                <li><a href="tel:+74957804755">8 495 123-45-67</a>
+            </ul>
+            </nav>
+        </header>
+       
+        <!-- http://novostroy.a-h.ru/ -->
+
+        <section class=need-padding>
+            <div class="cols">
+                <div class="col"><img class="details" src="img/offer2.jpg" alt="Второе предложение"></div>
+                <div class="col"> <img class="details" src="img/kv-zal-offer2.jpg" alt="Гостиная"></div>
+                <!-- <div class="col"> <img class="details" src="img/kv-kitchen-offer2.jpg" alt="Кухня"></div> -->
+            </div>
+            <p>ID объекта: 9258</p>
+            <h1> 3 202 203 руб.</h1>
+            <div class="komnaty">
+                <p>Количество комнат: <b>1</b></p>
+                <p>Общая площадь: <b>65 м<sup>2</sup></b></p>
+            </div>
+            <div class="komnaty">
+                <p>Материал: <b>Панельный</b></p>
+                <p>Количество этажей: <b>25</b></p>
+                <p>Этаж: <b>9</b></p>
+                <p>Количество лоджий: <b>1</b></p>
+            </div>
+            
+                <a href="offer1.html">Записаться на просмотр</a>
+          
+
+            <div class="komnaty">
+                <ul>
+                    <li>Дом - ближайший к метро</li>
+                    <li>Большая кухня</li>
+                    <li>Инфраструктура</li>
+                    <li>Удобная парковка </li>
+                    <li>Красивый вид из окна </li>
+                    <li>Санузел раздельный</li>
+                    <li>Лоджия</li>
+                    <li>Свежий ремонт</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class=need-padding>
+            <h2>8 495 123-45-67</h2> 
+            <h2>Задать вопрос</h2>
+              <form>
+                <!-- 
+                or more:
+                attributes
+                action="/"
+                method="get"...
+                -->
+
+                <!-- text input -->
+                <label for="first-n">Имя</label>
+                        <div class="first-n-etc"> 
+                        <input 
+                        id="first-n"
+                        placeholder="Ваше имя"
+                        name="first-n">
+                        </div>
+               <!-- text input -->
+               <label for="tel">Телефон</label>
+                        <div class="first-n-etc">
+                          <input 
+                         
+                        type="tel" 
+                        name="tel"
+                        id="tel"
+                        placeholder="В формате +79...">
+                        
+                         </div>
+               <!-- text input -->
+                <label for="text">Ваш вопрос</label>
+                <div class="first-n-etc">
+                      <textarea 
+                      placeholder="Любой вопрос" name="text" id="text" cols="30" rows="10"></textarea>
+                </div>
+                
+                <!--Submit button -->
+                <label for="submit"></label>
+                    <div>
+                    <input 
+                    class="button"
+                    type="submit"
+                    value="Отправить"
+                    id="submit">
+                </div>
+        </form>
+        </section>
+
+        <br>
+    
+    <footer>
+        <div class=cols>
+            <div class=col>
+                <h2>Каталог</h2>
+                <ul>
+                <li><a href="">Квартиры и комнаты</a>
+                <li><a href="">Новостройки</a>
+                <li><a href="">Коттеджи, таунхаусы, участки</a>
+                <li><a href="">Нежилые помещения</a>
+                <li><a href="">Аренда квартир, комнат</a>
+                <li><a href="">Аренда коттеджей</a>      
+                <li><a href="">Аренда нежилых помещений</a>                 
+                </ul>
+            </div>
+            <div class=col>
+                <h2>Услуги</h2>
+                <ul>
+                    <li><a href="">Обмен квартир</a>
+                    <li><a href="">Продать квартиру или комнату</a>
+                    <li><a href="">Сдать квартиру, комнату</a>
+                    <li><a href="">Ипотека</a>
+                    <li><a href="">Оценка недвижимости</a>
+                    <li><a href="">Лизинговые услуги</a>
+                    <li><a href="service.html">Все услуги</a>
+                </ul>
+            </div>
+            <!-- <div class=col>
+                <h2>О компании</h2> 
+            </div> -->
+        </div>
+        <br>
+            <div class="need-padding">
+                <a href="http://fb.com"
+                target="_blank">
+                    <img src=img/facebook.png alt="Фейсбук">
+                </a>
+            <br>
+            <br>
+                <small>&copy; Агентство недвижимости "БИГ". 2005-2020 гг.</small>
+            </div>
+    </footer>
+     <!-- </div> -->
+    </body>
+</html>
