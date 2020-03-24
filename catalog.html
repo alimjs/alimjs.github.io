@@ -4,21 +4,118 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="css/style.css">
         <!-- viewport=/> -->
-        <title>Каталог</title>
+        <title>Каталог BIG</title>
+ </head>
     <body>
-    <div class="container">
-        <nav>
-            <a href="index.html"><img src="img/logo/logo.png" width="30%" alt="Логотип"></a>
-
+     <!-- <div class="container"> -->
+        <header>
+            <a href="index.html"><img src="img/logo-2/logo.png" alt="Логотип"></a>
+            <nav>
             <ul>
-                <li><a href="catalog.html">Каталог</a>
+                <li class="dropdown">
+                    <a href="catalog.html">Каталог</a>
+                    <div class="dropdown-content">
+                        <a href="catalog.html" class="dropbtn">Квартиры и комнаты</a>
+                        <a href="catalog.html">Новостройки</a>
+                    </div>
+                    <!-- Не забыть про li-->
+                    </li>
                 <li><a href="about.html">О компании</a>
-                <li><a href="services.html">Услуги</a>
+                <li><a href="service.html">Услуги</a>
                 <li><a href="contacts.html">Контакты</a>
                 <li><a href="tel:+74957804755">8 495 123-45-67</a>
             </ul>
-        </nav>
-    </div>
+            </nav>
+        </header>
+       
+        <!-- http://novostroy.a-h.ru/ -->
+
+        <div class="cols">
+            <div class="col">
+                <h3>Южные пруды</h3>
+                <img src="img/offer1.jpg" alt="Первое предложение">
+                <p>Ленинский район</p>
+                <p>Домодедовская м. 15 мин.</p>
+                <p>Мещерино п.</p>
+                <p>1 ккв от 30 до 38.5 м<sup>2</sup></p>
+                <p>2 ккв от 51.5 до 50.3 м<sup>2</sup></p>
+                <p>от 2 173 450 руб.</p>
+                <a href="offer1.html">Посмотреть</a>
+
+            </div>
+            <div class="col">
+                <h3>Spring</h3>
+                <img src="img/offer2.jpg" alt="Второе предложение">
+                <p>Одинцовский р-н</p>
+                <p>Кунцевская м. 20 мин</p>
+                <p>Одинцово г., Северная ул.</p>
+                <p>Студии от 22.8 до 42.1 м<sup>2</sup></p>
+                <p>1 ккв от 32.9 до 63.5 м<sup>2</sup></p>
+                <p>2 ккв от 47.5 до 81.3 м<sup>2</sup></p>
+                <p>от 3 202 203 руб.</p>
+                <a href="offer2.html">Посмотреть</a>
+            </div>
+            <div class="col">
+                <h3>Винтер</h3>
+                <img src="img/apartmenthouse1.jpg" alt="Третье предложение">
+                <p>Наро-Фоминский г.о. р-н</p>
+                <p>Саларьево м. 30 мин.</p>
+                <p>Апрелевка г., Декабристов ул.</p>
+                <p>1 ккв от 32.9 до 63.5 м<sup>2</sup></p>
+                <p>2 ккв от 47.5 до 81.3 м<sup>2</sup> </p>
+                <p>от 3 275 000 руб.</p>
+                <a href="apartmenthouse1.html">Посмотреть</a>
+            </div>
+        </div>
+        
+        <section class=need-padding>
+            <h2>8 495 123-45-67</h2> 
+            <button>Заказать звонок</button>
+        </section>
+
+        <br>
+    
+    <footer>
+        <div class=cols>
+            <div class=col>
+                <h2>Каталог</h2>
+                <ul>
+                <li><a href="">Квартиры и комнаты</a>
+                <li><a href="">Новостройки</a>
+                <li><a href="">Коттеджи, таунхаусы, участки</a>
+                <li><a href="">Нежилые помещения</a>
+                <li><a href="">Аренда квартир, комнат</a>
+                <li><a href="">Аренда коттеджей</a>      
+                <li><a href="">Аренда нежилых помещений</a>                 
+                </ul>
+            </div>
+            <div class=col>
+                <h2>Услуги</h2>
+                <ul>
+                    <li><a href="">Обмен квартир</a>
+                    <li><a href="">Продать квартиру или комнату</a>
+                    <li><a href="">Сдать квартиру, комнату</a>
+                    <li><a href="">Ипотека</a>
+                    <li><a href="">Оценка недвижимости</a>
+                    <li><a href="">Лизинговые услуги</a>
+                    <li><a href="service.html">Все услуги</a>
+                </ul>
+            </div>
+            <!-- <div class=col>
+                <h2>О компании</h2> 
+            </div> -->
+        </div>
+        <br>
+            <div class="need-padding">
+                <a href="http://fb.com"
+                target="_blank">
+                    <img src=img/facebook.png alt="Фейсбук">
+                </a>
+            <br>
+            <br>
+                <small>&copy; Агентство недвижимости "БИГ". 2005-2020 гг.</small>
+            </div>
+    </footer>
+     <!-- </div> -->
     </body>
- </head>
 </html>
