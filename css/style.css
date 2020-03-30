@@ -36,7 +36,12 @@ nav li{
 ul{
 list-style-type: none;
 }
-h1,h2{
+h1{
+    font-size: x-large;
+    color:rgb(59, 42, 70);
+}
+h2{
+    font-size: large;
     color:rgb(59, 42, 70);
 }
 /* a:link{color: rgb(134, 190, 50);}
