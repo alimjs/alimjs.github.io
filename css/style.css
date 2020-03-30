@@ -152,11 +152,11 @@ button a{
 }
 
  a.link-button:link{
-    padding: 14px 25px;
+    padding: 5px 14px;
     /* border: 1px black solid; */
     background-color: rgba(20, 219, 20, 0.685);
     color: white;
-    font-size: 24px;
+    font-size: 20px;
     text-decoration: none;
 }
 a.link-button:visited{
