@@ -1,13 +1,15 @@
-/*.container {border: solid; width:100%;}*/
-
 *{
     font-family: Arial, Tahoma, sans-serif;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
 }
 
 body{
     margin:0px;
-    overflow-x: hidden; /* Скрыть скролл */
+    /* overflow-x: hidden; Скрыть скролл */
+}
+.container{
+    /* border: solid; */
+    width: 100%;
 }
 
 .need-padding {
@@ -147,4 +149,37 @@ button, .button {
 button a{
     color:white;
     
+}
+
+ a.link-button:link{
+    padding: 14px 25px;
+    /* border: 1px black solid; */
+    background-color: rgba(20, 219, 20, 0.685);
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+a.link-button:visited{
+    padding: 14px 25px;
+    background-color: rgba(20, 219, 20, 0.685);
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+}
+dt{
+   font-style: italic;
+}
+
+@media screen and (max-width:700px){
+    .container{
+        width: 500px;
+        border: 0;
+    }
+    header{
+        text-align: center;
+    }
+    nav ul, nav li, .cols, .col{
+        display: block;
+    }
+   
 }
